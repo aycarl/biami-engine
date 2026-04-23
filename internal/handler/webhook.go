@@ -3,7 +3,7 @@ package handler
 import (
 	"net/http"
 
-	"biami-survey-engine/internal/model"
+	"biami-engine/internal/model"
 
 	"github.com/gin-gonic/gin"
 )

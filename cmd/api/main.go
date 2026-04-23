@@ -1,7 +1,7 @@
 package main
 
 import (
-	"biami-survey-engine/internal/handler"
+	"biami-engine/internal/handler"
 
 	"github.com/gin-gonic/gin"
 )
