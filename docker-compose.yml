@@ -1,0 +1,18 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: biami-api:latest
+    ports:
+      - "8080:8080"
+
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: builder
+    working_dir: /app
+    command: ["go", "test", "./..."]
+    profiles: ["test"]
+
