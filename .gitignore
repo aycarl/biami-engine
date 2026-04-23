@@ -1,0 +1,51 @@
+# --- OS artifacts ---
+.DS_Store
+
+# --- Environment & local config ---
+.env
+.env.*
+!.env.example
+
+# --- Logs / temp files ---
+*.log
+*.tmp
+tmp/
+.tmp/
+.cache/
+
+# --- Go build artifacts ---
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.cover
+*.coverprofile
+.coverprofile
+coverage.out
+coverage.html
+bin/
+build/
+dist/
+
+# --- Go tooling caches (project-local) ---
+.gocache/
+.gomodcache/
+
+# --- Test artifacts ---
+*.prof
+*.pprof
+
+# --- Docker / compose local overrides ---
+docker-compose.override.yml
+
+# --- Generated docs / sites ---
+docs/site/
+
+# --- HTTP client scratch artifacts ---
+tests/*.private.env.json
+tests/*.cookies
+tests/*.history
+
