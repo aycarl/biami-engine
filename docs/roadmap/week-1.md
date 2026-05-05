@@ -3,7 +3,7 @@
 ## Tasks
 
 - Define the JSON schemas for dynamic surveys and respondent metadata.
-- Boilerplate a Go (Gin/Echo) API for the /api/v1/mobile-hook/ endpoint to handle USSD/SMS sessions.
+- Boilerplate a Go (Gin/Echo) API for the /api/v1/mobile-hook endpoint to handle USSD/SMS sessions.
 - Deliverable: A functional API that accepts survey submissions and manages session state.
 
 ## Implementation
