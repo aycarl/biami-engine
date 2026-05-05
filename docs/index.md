@@ -5,7 +5,7 @@ Welcome to the Biami Engine documentation! This directory contains essential res
 ## Table of Contents
 
 ### [Project Roadmap](roadmap/index.md)
-The roadmap details the 13-week transition from a functional core application to a production-grade, autonomous cloud architecture. It covers the evolution of infrastructure, serverless integration, security, and observability.
+The roadmap details the 10-week transition from a functional core application to a production-grade, autonomous cloud architecture. It covers the evolution of infrastructure, serverless integration, security, and observability.
 
 ### [Architecture Decision Records (ADRs)](adr/README.md)
 ADRs capture the *why* behind key technical decisions in the `biami-engine` repository. Review this section to understand the rationale for our framework choices, deployment models, and other architectural decisions.
