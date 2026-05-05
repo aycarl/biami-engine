@@ -1,3 +1,13 @@
+# Week 1: Data Core & API Definition
+
+## Tasks
+
+- Define the JSON schemas for dynamic surveys and respondent metadata.
+- Boilerplate a Go (Gin/Echo) API for the /api/v1/mobile-hook endpoint to handle USSD/SMS sessions.
+- Deliverable: A functional API that accepts survey submissions and manages session state.
+
+## Implementation
+
 This is the functional foundation for **Biami**. Following the 13-week roadmap, Week 1 focuses on the **Data Core** and the **Mobile Webhook**.
 
 We will use the **Gin** framework for the API due to its performance and middleware ecosystem, which is highly regarded in the Canadian cloud-native space.
