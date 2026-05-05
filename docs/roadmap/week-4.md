@@ -3,7 +3,7 @@
 ## Tasks
 
 - Provision RDS PostgreSQL and ElastiCache Redis via Terraform.
-- Create multi-stage Dockerfiles for the Go API and Celery/Go workers.
+- Create multi-stage Dockerfiles for the Go API and Go workers.
 - Deliverable: Optimized Docker images and secure managed databases.
 
 ## Implementation
