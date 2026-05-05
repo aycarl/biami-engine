@@ -16,7 +16,7 @@ The repository strictly adheres to a standard Go project layout to separate conc
 - `cmd/api/main.go`: Application entry point and route wiring. Keep this file minimal.
 - `internal/handler/`: HTTP handlers containing webhook logic (e.g., `webhook.go`). Handlers should orchestrate, not contain heavy business logic.
 - `internal/model/`: Data structures and JSON schemas (e.g., `survey.go`). Uses `json.RawMessage` for dynamic, unstructured survey payload data.
-- `docs/roadmap/`: Contains the 13-week roadmap, architectural context, and milestones. Reference this to understand the project's trajectory.
+- `docs/roadmap/`: Contains roadmap documents, architectural context, and milestones. Reference this to understand the project's trajectory.
 - `tests/`: Resources for integration and manual testing (e.g., `.http` files).
 
 ## Coding Standards & Guidelines
