@@ -8,3 +8,9 @@
 
 ## Implementation
 
+- Create a GitHub Actions workflow that runs on every push and pull request.
+- Add build, test, and deployment stages so changes are validated before release.
+- Integrate either Nessus or Snyk into the pipeline to scan dependencies and fail the workflow on critical findings.
+- Finalize the System Architecture Diagram to reflect the deployed services, CI/CD flow, security scans, and rollback path.
+- Configure deployment to use a zero-downtime strategy, such as rolling or blue-green deployment, so traffic is not interrupted during releases.
+- Validate the workflow end to end by triggering a deployment and confirming the application remains available throughout the release process.
