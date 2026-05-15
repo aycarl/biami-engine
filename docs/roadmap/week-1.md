@@ -10,10 +10,10 @@
 
 This is the functional foundation for **Biami**. Following the 13-week roadmap, Week 1 focuses on the **Data Core** and the **Mobile Webhook**.
 
-We will use the **Gin** framework for the API due to its performance and middleware ecosystem, which is highly regarded in the Canadian cloud-native space.
+We will use the **Gin** framework for the API due to its performance and middleware ecosystem.
 
 ### 1. Project Structure
-To demonstrate architectural maturity, we use a standard Go layout that separates the entry point from the internal logic.
+We use a standard Go layout that separates the entry point from the internal logic.
 
 ```text
 biami/
@@ -35,7 +35,7 @@ biami/
 ### 2. The Implementation
 
 #### `internal/model/survey.go`
-This defines the dynamic nature of Biami. We use `json.RawMessage` to allow for unstructured survey data, a key requirement for an autonomous platform.
+This defines the dynamic nature of Biami. We use `json.RawMessage` to allow for unstructured survey data.
 
 ```go
 package model
@@ -111,8 +111,7 @@ func main() {
 
 ---
 
-### 3. Architect’s "Pro" Tooling
-To align with the **Solutions Architect** goal, include these two files to show you design for deployment and automation.
+### 3. Tooling
 
 #### `Dockerfile` (Multi-stage Build)
 ```dockerfile
@@ -158,5 +157,3 @@ docker-build:
    -H "Content-Type: application/json" \
    -d '{"from": "+123456789", "text": "*123#", "session_id": "xyz123"}'
    ```
-
-By the end of this hour, you have a container-ready Go API that follows professional directory standards. Ready to document the first **ADR (Architecture Decision Record)** for the repository?
